@@ -1,0 +1,75 @@
+.wedding-party { max-width: 30rem; }
+.wedding-party > h3 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.25; }
+.wedding-party > p { font-size: 1rem; line-height: 1.7; max-width: 26rem; }
+.wedding-party__scratch { max-width: 340px; }
+.wedding-party__scratch [class*="text-[10px]"] { font-size: 1rem; color: #8a6236; }
+.wedding-party__scratch [class*="text-[11px]"] { font-size: 1.125rem; }
+.wedding-party__scratch [class*="max-w-[14rem]"] { font-size: 1rem; color: #7a4a2b; }
+.wedding-party__scratch button { font-size: 0.8125rem; padding: 0.65rem 1.25rem; }
+.wedding-party__scratch [class*="hint"] { font-size: 0.8125rem; }
+.wedding-party__scratch [class*="py-4"] { gap: 0.75rem; padding: 1.75rem 1.25rem; }
+.wedding-party > div:last-child p { font-size: 1.0625rem; }
+.catamaran-tour { position: relative; max-width: 32rem; margin: 3rem auto 0; text-align: center; color: #7a4a2b; }
+.catamaran-tour h3 { margin-bottom: 1rem; font-size: clamp(1.75rem, 5vw, 2.25rem); color: #8a6236; line-height: 1.3; }
+.catamaran-tour > p { margin: 0 auto 1.75rem; max-width: 29rem; font-size: 1rem; line-height: 1.8; text-wrap: pretty; }
+.catamaran-tour__photos { display: grid; gap: 1.25rem; }
+.catamaran-tour__photos img { display: block; width: 100%; height: auto; border-radius: 1rem; border: 1px solid #c9a15a; }
+.wedding-gallery__stage { height: 420px; }
+.wedding-gallery__card { width: 220px; height: 320px; }
+.wedding-gallery__card--active { width: 260px; height: 360px; }
+@media (min-width: 640px) {
+  .wedding-gallery__stage { height: 490px; }
+  .wedding-gallery__card { width: 260px; height: 370px; }
+  .wedding-gallery__card--active { width: 300px; height: 420px; }
+}
+.wedding-schedule {
+  position: relative;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: 4rem 1.5rem 5rem;
+  color: #7a4a2b;
+}
+.wedding-schedule h2 {
+  margin: 0 0 2.75rem;
+  color: #8a6236;
+  text-align: center;
+  font-size: clamp(1.75rem, 5.5vw, 2.25rem);
+  line-height: 1.3;
+  font-weight: 600;
+}
+.wedding-schedule__timeline { list-style: none; padding: 0; margin: 0 auto; width: fit-content; max-width: 100%; }
+.wedding-schedule__timeline li {
+  display: grid;
+  grid-template-columns: 5rem 1rem minmax(0, 15rem);
+  column-gap: 1.5rem;
+  position: relative;
+  min-height: 6rem;
+}
+.wedding-schedule__timeline time { text-align: end; padding-top: 0.15rem; font-size: 1rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.wedding-schedule__timeline p { margin: 0; padding-bottom: 2rem; font-size: clamp(1.125rem, 3.5vw, 1.5rem); line-height: 1.5; overflow-wrap: anywhere; }
+.wedding-schedule__marker { position: relative; align-self: stretch; }
+.wedding-schedule__marker::before { content: ""; position: absolute; inset-inline-start: calc(50% - 0.5px); top: 0.6rem; bottom: -0.6rem; width: 1px; background: #c9a15a; }
+.wedding-schedule__marker::after { content: ""; position: absolute; inset-inline-start: calc(50% - 6px); top: 0.4rem; width: 12px; height: 12px; border-radius: 50%; background: #a67a39; border: 2px solid #f7f0e4; box-sizing: content-box; transform: translateX(-2px); }
+.wedding-schedule__timeline li:last-child { min-height: 0; }
+.wedding-schedule__timeline li:last-child .wedding-schedule__marker::before { display: none; }
+.wedding-schedule__timeline li:last-child p { padding-bottom: 0; }
+.wedding-thanks { text-wrap: pretty; line-height: 1.8; }
+.wedding-signature { text-align: center; padding: 2rem 1.5rem 5rem; position: relative; }
+.wedding-signature__seal { display: block; width: min(100%, 22rem); height: auto; margin-inline: auto; }
+.wedding-signature__name {
+  margin: 0;
+  padding: 0.12em 0.15em;
+  font-family: var(--font-script-flourish), var(--font-script), cursive;
+  font-size: clamp(4.75rem, 13vw, 6rem);
+  font-weight: 400;
+  line-height: 1.35;
+  color: #8a6236;
+  overflow-wrap: anywhere;
+}
+.wedding-signature__heart { width: 1.75rem; height: 1.75rem; margin: 0.75rem auto; }
+.inv-lang-ar .wedding-signature__name { font-family: var(--font-script-ar), var(--font-script-flourish), cursive; }
+@media (max-width: 480px) {
+  .wedding-schedule__timeline li { grid-template-columns: 4.5rem 1rem minmax(0, 1fr); column-gap: 1rem; min-height: 5.5rem; }
+  .wedding-schedule__timeline time { font-size: 0.875rem; }
+  .wedding-party__scratch [class*="text-[11px]"] { font-size: 1rem; }
+}

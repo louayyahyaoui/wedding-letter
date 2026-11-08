@@ -1,0 +1,11 @@
+node_modules/
+dist/
+data/
+*.log
+evidence/
+design-assets/
+.codex/
+.cursor/
+.vscode/
+.env
+.env.*

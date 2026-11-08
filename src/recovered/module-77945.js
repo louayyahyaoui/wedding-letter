@@ -1,0 +1,17 @@
+// Recovered from the public Golden Letter demo; original module 77945.
+export default function (e, t, n) {
+  "use strict";
+  n.d(t, {
+    Z: function () {
+      return a;
+    },
+  });
+  let a = (0, n(79205).Z)("languages", [
+    ["path", { d: "m5 8 6 6", key: "1wu5hv" }],
+    ["path", { d: "m4 14 6-6 2-3", key: "1k1g8d" }],
+    ["path", { d: "M2 5h12", key: "or177f" }],
+    ["path", { d: "M7 2h1", key: "1t2jsx" }],
+    ["path", { d: "m22 22-5-10-5 10", key: "don7ne" }],
+    ["path", { d: "M14 18h6", key: "1m8k6r" }],
+  ]);
+}

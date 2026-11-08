@@ -1,0 +1,74 @@
+{
+  "status": "published",
+  "subdomain": null,
+  "isActive": true,
+  "region": "gl",
+  "paymentStatus": "paid",
+  "createdAt": "2026-08-01T00:00:00.000Z",
+  "updatedAt": "2026-08-01T00:00:00.000Z",
+  "couple": {
+    "brideName": "Maram Khalfaoui",
+    "brideNickname": "Maram",
+    "brideParents": "Daughter of Adel Khalfaoui & Nadia Guelmami",
+    "groomName": "Louay Yahyaoui",
+    "groomNickname": "Louay",
+    "groomParents": "Son of Felah Yahyaoui & Ahlem Missaoui",
+    "nameOrder": "Groom-first"
+  },
+  "event": {
+    "occasionType": "Wedding Party",
+    "date": "2027-01-09",
+    "time": "16:00",
+    "venueName": "Siesta Mia catamaran",
+    "address": "Roland Marina, Pontoon D",
+    "city": "Tax-xbiex",
+    "mapLink": "https://maps.app.goo.gl/s8zqkvkFwUuWy5mL9",
+    "description": "Join us on 9 January 2027 for our wedding party aboard the Siesta Mia catamaran. Celebrate with us on a catamaran tour as we share this special day with our family and friends.",
+    "tourTitle": "Aboard Siesta Mia",
+    "tourDescription": "Our wedding party will take place aboard Siesta Mia for a catamaran tour. Join us on board to celebrate, enjoy the sea views, and make beautiful memories together. We will meet at Roland Marina, Pontoon D, in Ta’ Xbiex.",
+    "photos": [
+      {
+        "src": "/assets/siesta-mia/at-anchor.webp",
+        "alt": "Siesta Mia catamaran at anchor in turquoise water"
+      },
+      {
+        "src": "/assets/siesta-mia/under-sail.webp",
+        "alt": "Siesta Mia catamaran sailing at sea"
+      }
+    ]
+  },
+  "additionalEvents": [],
+  "includeRsvp": false,
+  "story": "With the blessings of Allah and the love of our families, we invite you to celebrate our wedding. Your presence and prayers will make our day complete.",
+  "faq": {
+    "dressCode": "Dress chic — we would love to see you in elegant occasion wear that makes you feel your best. A beautiful dress, a tailored suit, or a thoughtfully styled outfit will be perfect for the celebration. Please choose something comfortable so you can relax, celebrate, and enjoy this special evening with us."
+  },
+  "endingNote": "Alhamdulillah, with grateful hearts, we thank Allah for bringing us together and for blessing us with the love of our families and friends. Thank you for sharing in our joy, for your kindness, and for every heartfelt du‘a as we begin this new chapter. Your presence means so much to us. May Allah reward you with goodness, bless your homes with peace and happiness, and fill our marriage with love, mercy, and barakah. Please keep us in your prayers as we build a life together, seeking His pleasure. Jazakum Allahu khayran for being part of our special day.",
+  "assets": {
+    "heroBackground": "/assets/ceremony/design/hero-seaside.webp",
+    "cover": null,
+    "couple_only": "/couple_demo.webp",
+    "couplePhoto": null,
+    "gallery": [
+      "/assets/ceremony/optimized/DSC_3910.JPG.webp",
+      "/assets/ceremony/optimized/DSC_3943.JPG.webp",
+      "/assets/ceremony/optimized/DSC_3945.JPG.webp",
+      "/assets/ceremony/optimized/DSC_4009.JPG.webp",
+      "/assets/ceremony/optimized/DSC_4012.JPG.webp"
+    ],
+    "music": "bruno-mars-marry-you.mp3",
+    "musicConfig": null,
+    "metaImage": null
+  },
+  "verse": {
+    "id": "an-naba-8",
+    "display": "both"
+  },
+  "id": "demo-golden-letter",
+  "templateSlug": "golden-letter",
+  "mainEventOrder": 1,
+  "islamicContent": {
+    "bismillah": true,
+    "verse": true
+  }
+}
