@@ -1212,7 +1212,7 @@ export default function (e, t, n) {
       }, [c]));
     let [L, z] = (0, i.useState)({ track: null, isRandom: !1 }),
       q = !0,
-      [H, V] = (0, i.useState)("en"),
+      [H, V] = (0, i.useState)(x),
       [W, I] = (0, i.useState)(null),
       O = (0, i.useRef)(null),
       [_, F] = (0, i.useState)(!1),
